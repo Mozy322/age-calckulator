@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Age Calculator</title>
+  <style>
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Age Calculator</h1>
+    <p>Hei, dette er en enkel nettside for å regne ut hvor gammel du er 😄</p>
+    <p>Vennligst skriv inn fødselsdato og trykk på knappen nedenfor</p>
+    <form id="age-form">
+      <div class="dob-inputs">
+        <div class="dob-box">
+          <label for="day">Dag:</label>
+          <input type="number" id="Dag" name="Dag" min="1" max="31" placeholder="f.eks. 15 eller 08" required>
+        </div>
+        <div class="dob-box">
+          <label for="month">Måned:</label>
+          <input type="number" id="Måned" name="Måned" min="1" max="12" placeholder="f.eks. 12 eller 03">
+        </div>
+        <div class="dob-box">
+          <label for="year">År:</label>
+          <input type="number" id="År" name="År" min="1" max="9999" placeholder="f.eks. 2006" required>
+        </div>
+      </div>
+      <div class="button">
+        <button type="submit" class="title">Regn ut min alder</button>
+      </div>
+    </form>
+    <div id="age-result-box">
+      <div id="age-result"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

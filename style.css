@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(age-bilde-2\ \(1\).avif);
+  background-size: cover;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+.container {
+  text-align: center;
+}
+.dob-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;/* Legg til ekstra padding nederst for å lage hvitt mellomrom */
+}
+.dob-box {
+  margin: 0 20px; /* Økt avstand mellom boksene */
+  background-color: #d3f5d3; /* Lyse grønn farge */
+  padding: 10px; /* Legg til padding for å skape mellomrom mellom fargene */
+  border-radius: 5px;
+}
+.dob-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 16px; /* Økt størrelse på teksten */
+  color: #333; /* Endret tekstfarge */
+}
+.dob-box input {
+  width: 120px; /* Økt bredde for inntastingsboksene */
+  padding: 8px; /* Økt padding for bedre synlighet */
+  font-size: 16px; /* Økt størrelse på teksten */
+}
+.button {
+  margin-top: 10px;
+}
+#age-result-box {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.title {
+  background-color: #800080; /* Lilla farge */
+  color: #fff;
+  padding: 10px 20px; /* Større padding */
+  border: none;
+  border-radius: 5px;
+  font-size: 18px; /* Større fontstørrelse */
+  cursor: pointer;
+}
